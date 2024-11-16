@@ -1,0 +1,30 @@
+# config/config.yaml
+
+# 支持的图像文件扩展名
+supported_extensions:
+  - .png
+  - .jpg
+  - .jpeg
+  - .bmp
+  - .tiff
+
+# 二色化方法: 'otsu', 'adaptive', 'fixed'
+binarization_method: 'otsu'
+
+# 固定二色化阈值（仅当使用 'fixed' 方法时有效）
+binarization_threshold: 127
+
+# 平滑处理方法: 'median', 'gaussian'
+smoothing_method: 'median'
+
+# 平滑处理的卷积核大小（必须为奇数）
+smoothing_kernel_size: 1
+
+# 锐化强度
+sharpen_intensity: 0.5
+
+# 并行处理的最大线程数
+max_workers: 10
+
+# SVG 输出污点大小
+svg_turdsize: 0
