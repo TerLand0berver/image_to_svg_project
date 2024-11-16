@@ -1,0 +1,7 @@
+# Python dependencies list 
+opencv-python
+numpy
+Pillow
+PyYAML
+tqdm
+streamlit

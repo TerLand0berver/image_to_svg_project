@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Logs
+logs/
+
+# Processed Images
+processed_images/
+
+# Output SVGs
+output_svgs/
+
+# Temporary Files
+temp/
+*.tmp
+
+# Streamlit
+.streamlit/
